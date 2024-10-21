@@ -1,0 +1,14 @@
+input:
+  charges: "data/Charges_use.csv"
+  damages: "data/Damages_use.csv"
+  endorse: "data/Endorse_use.csv"
+  primary_person: "data/Primary_person_use.csv"
+  restrict: "data/Restrict_use.csv"
+  units: "data/Units_use.csv"
+
+output:
+  analysis_output: "output/analysis_results.csv"
+
+spark:
+  master: "local[*]"   # can be local or cluster
+  app_name: "CrashDataAnalysisApp"
