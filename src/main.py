@@ -1,6 +1,6 @@
 import sys
-from scripts.etl import load_config, create_spark_session, load_data
-from scripts.analysis import male_fatalities, two_wheeler_crashes,top_vehicle_makes_airbag_deploy, 
+from src.etl import load_config, create_spark_session, load_data
+from src.analysis import male_fatalities, two_wheeler_crashes,top_vehicle_makes_airbag_deploy, 
                               valid_license_hit_run, state_female_not_involved, top_3rd_to_5th_vehicle_makes_injuries, 
                               top_ethnic_group_by_body_style, top_5_zip_codes_alcohol_contrib, 
                               no_damaged_property, top_5_vehicle_makes_speeding
